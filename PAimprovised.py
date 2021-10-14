@@ -93,7 +93,7 @@ if __name__=='__main__':
             speak("Google Mail open now")
             time.sleep(5)
 
-        elif "weather" in statement:
+        elif "weather" in statement:#search weather api python and go to geeksforgeeks website to read abput this.
             api_key="8ef61edcf1c576d65d836254e11ea420"
             base_url="https://api.openweathermap.org/data/2.5/weather?"
             speak("whats the city name")
